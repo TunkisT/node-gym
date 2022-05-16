@@ -9,4 +9,5 @@ module.exports = {
     port: process.env.MYSQL_PORT,
   },
   serverPort: process.env.PORT || 8080,
+  jwtSecret: process.env.JWT_SECRET,
 };
